@@ -44,24 +44,6 @@ HoloCell is pretrained through a two-stage paradigm: large-scale unimodal pretra
 
 ---
 
-## Repository Status
-
-This repository currently serves as the official project page for HoloCell. We are organizing the codebase, pretrained checkpoints, data preprocessing workflows, and benchmark scripts for public release.
-
-Planned releases include:
-
-* Model architecture implementation
-* Tokenization and preprocessing scripts
-* Pretrained HoloCell model weights
-* Inference scripts for cell representation extraction
-* Scripts for paired and unpaired multi-omics integration
-* Cross-modal generation pipelines
-* Benchmarking and evaluation code
-* Example tutorials and demo datasets
-* Documentation for reproducing major results
-
----
-
 ## Citation
 
 If you use HoloCell or refer to this repository, please cite our manuscript.
@@ -69,7 +51,7 @@ If you use HoloCell or refer to this repository, please cite our manuscript.
 ```bibtex
 @article{jiang2026holocell,
   title   = {HoloCell: A Generative Foundation Model for Holistic Cellular Modeling},
-  author  = {Jiang, Qun and Li, Zhen and Hu, Bowen and Bie, Yunlong and Li, Keyi and Chen, Xiaoyang and Qin, Tao and Liu, Haiguang and Jiang, Rui and Yin, Qijin},
+  author  = {Qun Jiang and Zhen Li and Bowen Hu and Yunlong Bie and Keyi Li and Qiuyi Li and Peiran Jin and Yuan He and Pan Deng and Zhenyi Wang and Xiaoyang Chen and Tao Qin and Haiguang Liu and Rui Jiang and Qijin Yin},
   journal = {bioRxiv},
   year    = {2026}
 }
